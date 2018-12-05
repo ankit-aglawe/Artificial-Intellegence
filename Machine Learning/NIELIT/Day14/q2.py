@@ -21,4 +21,4 @@ from sklearn import metrics
 
 print(metrics.mean_absolute_error(y,y_pred))
 print(metrics.mean_squared_error(y,y_pred))
-print(np.sqrt(mean_squared_error(y,y_pred)))
+print(np.sqrt(metrics.mean_squared_error(y,y_pred)))
